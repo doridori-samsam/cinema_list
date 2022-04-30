@@ -5,8 +5,155 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to Jungle Cinema</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <section class="container">
+        <h1>정글 시네마 영화 목록</h1>
+        <nav class="cont-menu">
+            <ul class="menu-list">
+             <li>    
+                <input id="now-in-theater" name="menu" type="radio" checked="checked">
+                <label for="now-in-theater">현재상영영화</label>
+             </li>
+             <li>
+                <input id="coming-soon" name="menu" type="radio">
+                <label for="coming-soon">개봉예정영화</label>
+             </li>
+             <li>
+                <input id="box-office" name="menu" type="radio">
+                <label for="box-office">박스오피스</label>
+             </li>
+        </nav>
+        <ul class="movie-list">
+            <li class="weniv-world">
+                <img class="movie-poster" src="cinema_list/poster_weniv-world.png" alt="weniv world">
+                <strong>위니브 월드 : 새로운 시대</strong>
+                <div class="movie-info">
+                    <span>개요</span>
+                    <span>평점</span>
+                    <span>개봉</span>
+                    <span>출연</span>
+                </div>
+                <div class="click-box">
+                   <a href="#none">예매하기</a>
+                   <a href="#none"><img src="cinema_list/icon_play.png" alt="play trailer"></a>
+                </div>
+            </li>
+            <li class="coding-test">
+                <img class="movie-poster" src="cinema_list/poster_coding-test.png" alt="java coding test">
+                <strong>눈떠보니 코딩테스트 전날</strong>
+                <div class="movie-info">
+                    <span>개요</span>
+                    <span>평점</span>
+                    <span>개봉</span>
+                    <span>출연</span>
+                </div>
+                <div class="click-box">
+                   <a href="#none">예매하기</a>
+                   <a href="#none"><img src="cinema_list/icon_play.png" alt="play trailer"></a>
+                </div>
+            </li>
+            <li class="python-bootcamp">
+                <img class="movie-poster" src="cinema_list/poster_bootcamp.jpg" alt="python bootcamp">
+                <strong>파이썬 부트캠프</strong>
+                <div class="movie-info">
+                    <span>개요</span>
+                    <span>평점</span>
+                    <span>개봉</span>
+                    <span>출연</span>
+                </div>
+                <div class="click-box">
+                    <a href="#none">예매하기</a>
+                    <a href="#none"><img src="cinema_list/icon_play.png" alt="play trailer"></a>
+                </div>
+            </li>
+            <li class="pyqt-love">
+                <img class="movie-poster" src="cinema_list/poster_pyqt.png" alt="pyqt love">
+                <strong>파이큐티의 사랑</strong>
+                <div class="movie-info">
+                    <span>개요</span>
+                    <span>평점</span>
+                    <span>개봉</span>
+                    <span>출연</span>
+                </div>
+                <div class="click-box">
+                    <a href="#none">예매하기</a>
+                    <a href="#none"><img src="cinema_list/icon_play.png" alt="play trailer"></a>
+                </div>
+            </li>
+            <li class="nginx-dance">
+                <img class="movie-poster" src="cinema_list/poster_nginx.png" alt="nginx dance">
+                <strong>NGINX의 춤</strong>
+                <div class="movie-info">
+                    <span>개요</span>
+                    <span>평점</span>
+                    <span>개봉</span>
+                    <span>출연</span>
+                </div>
+                <div class="click-box">
+                    <a href="#none">예매하기</a>
+                    <a href="#none"><img src="cinema_list/icon_play.png" alt="play trailer"></a>
+                </div>
+            </li>
+            <li class="meet-up">
+                <img class="movie-poster" src="cinema_list/poster_meetup.png" alt="happened to meet up">
+                <strong>어쩌다 밋업</strong>
+                <div class="movie-info">
+                    <span>개요</span>
+                    <span>평점</span>
+                    <span>개봉</span>
+                    <span>출연</span>
+                </div>
+                <div class="click-box">
+                    <a href="#none">예매하기</a>
+                    <a href="#none"><img src="cinema_list/icon_play.png" alt="play trailer"></a>
+                </div>
+            </li>
+            <li class="pygame">
+                <img class="movie-poster" src="cinema_list/poster_pygame.jpg" alt="pygame adventure">
+                <strong>파이게임 어드벤처</strong>
+                <div class="movie-info">
+                    <span>개요</span>
+                    <span>평점</span>
+                    <span>개봉</span>
+                    <span>출연</span>
+                </div>
+                <div class="click-box">
+                    <a href="#none">예매하기</a>
+                    <a href="#none"><img src="cinema_list/icon_play.png" alt="play trailer"></a>
+                </div>
+            </li>
+            <li class="MBTI">
+                <img class="movie-poster" src="cinema_list/poster_mbti.png" alt="my destiny mbti">
+                <strong>MBTI는 내 운명</strong>
+                <div class="movie-info">
+                    <span>개요</span>
+                    <span>평점</span>
+                    <span>개봉</span>
+                    <span>출연</span>
+                </div>
+                <div class="click-box">
+                    <a href="#none">예매하기</a>
+                    <a href="#none"><img src="cinema_list/icon_play.png" alt="play trailer"></a>
+                </div>
+            </li>
+        </ul>
+        <footer>
+            <span>Jungle cinema</span>
+            <div class="sns-icon"></div>
+            <p>
+                <ul>
+                    <li>(주) 정글 시네마</li>
+                    <li>대표 라이언</li>
+                    <li>사업자 번호 000-0000-0000</li>
+                    <li>광고 영화 및 비디오물 제작업</li>
+                    <li><address>주소 서울특별시</address></li>
+                </ul>
+                
+            </p>
+        </footer>
+    </section>
 </body>
 </html>

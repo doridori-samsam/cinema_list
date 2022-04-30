@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*레이아웃*/
+section.container{
+    margin: 86px auto;
+    width: 1060px;
+    height: 1170px;
+    padding-top: 41px;
+    position: relative;
+    border: 1px solid #bdbdbd;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+}
+
+
+section h1{
+    text-align: center;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+section nav.cont-menu{
+    position: absolute;
+    top: 130px;
+    left: 345px;
+}
+
+nav ul.menu-list{
+    width: 372px;
+    height: 19px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border:1px solid red;
+    box-sizing: border-box;
+}
+
+ul.menu-list li{
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 900;
+}
+
+
+input[type="radio"]{
+    display: none;
+}
+
+ul.movie-list{
+    width: 1003px;
+    height: 962px;
+    position: absolute;
+    top: 177px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 23px;
+    border: 2px solid #bdbdbd;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: white;
+    
+    
+}
+
+
+ul.movie-list li{
+    width: 220px;
+    height: 441px;
+    border: 2px solid #bdbdbd;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    
+}
+
+li img.movie-poster{
+    width: 180px;
+    height: 250px;
+    margin-top: 19px;
+    margin-left: 20px;
+    border: 1px solid #bdbdbd;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px 0px;
+    
+}
