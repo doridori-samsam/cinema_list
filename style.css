@@ -52,18 +52,11 @@ nav ul.menu-list{
 }
 
 ul.menu-list li{
+    color: #828282;
     font-size: 16px;
     line-height: 18px;
     font-weight: 900;
 }
-
-
-input[type="radio"]{
-    display: none;
-    /* cursor: pointer; */
-}
-
-
 
 ul.movie-list{
     width: 1003px;
@@ -77,8 +70,6 @@ ul.movie-list{
     box-sizing: border-box;
     border-radius: 10px;
     background-color: white;
-    
-    
 }
 
 
@@ -91,12 +82,11 @@ ul.movie-list li{
     border-radius: 10px;
     background-color: white;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-    
 }
 
 div.list-cont{
     padding-left: 20px;
-    
+    padding-right: 20px;
 }
 
 li img.movie-poster{
@@ -164,7 +154,6 @@ a.trailer img{
 
 
 
-
 /*인사이드 콘텐츠*/
 h1::after{
     content:'';
@@ -176,29 +165,49 @@ h1::after{
     background-color: #bdbdbd;
 }
 
-.movie-info div{
-    /* border:1px solid red; */
-    display:inline-block;
-    margin-bottom: 5px;
-    
-}
-.movie-info span{
+div.movie-info{
+    position: relative;
     font-size: 13px;
     font-weight: 400;
     line-height: 18.82px;
+}
+
+.movie-info div{
+    margin-bottom: 5px;
+}
+
+.movie-info .genre, .rate{
+    display:inline-block;
+}
+
+.movie-info .rate{
+    position:absolute;
+    right: 0;
 }
 
 div>span:first-of-type{
     color:#828282;
 }
 
-
-
-/* .rate img{
+.rate img{
     width: 14px;
     height: 14px;
- 
-} */
+}
+
+
+/*nav function*/
+input[type="radio"]{
+    display: none;
+}
+
+input[type="radio"]+label{
+    cursor:pointer;
+}
+
+input[type="radio"]:checked+label{
+    color: black;
+}
+
 
 /*footer*/
 footer{
