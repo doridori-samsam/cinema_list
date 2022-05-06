@@ -4,12 +4,17 @@
     font-family: 'Noto Sans KR', sans-serif;
     margin: 0;
     padding: 0;
+    width: auto;
+    height: auto;
+    position:relative;
+    
 }
 
 /*레이아웃*/
 
 section.container{
-    margin: 86px auto;
+    margin: 0 auto;
+    margin-top: 86px;
     /* padding: 41px 28px 0 28px; */
     width: 1060px;
     height: 1170px;
@@ -154,7 +159,7 @@ a.trailer img{
 
 
 
-/*인사이드 콘텐츠*/
+/*이너 콘텐츠*/
 h1::after{
     content:'';
     position:absolute;
@@ -211,10 +216,77 @@ input[type="radio"]:checked+label{
 
 /*footer*/
 footer{
-    width: 100%;
     height: 213px;
-    bottom: 0%;
-    /* position: absolute;    */
+    margin-top: 135px;
+    padding-top: 54px;
     background-color: #f2f2f2;
+     text-align:center;
+}
+
+
+
+footer span.company{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-right: 858px;
+}   
+
+.sns-icon {
+     display: inline-block;
+}
+
+.sns-icon img{
+    width: 24px;
+    height: 24px;
+    margin-right: 23px;
+}
+
+/* ul.footer-cont::before{
+    content:'';
+    top: 119px;
+    margin-top: 42px;
+    margin-bottom: 36px;
+    text-align: center;
+    width: 1189px;
+    height: 1px;
+    background-color: #c4c4c4;
+} */
+
+ul.footer-cont{
+    /* border:1px solid seagreen; */
+    width:fit-content;
+    margin-left: -30px;
+    /* margin-right: 360px; */
+    margin-top: 78px;
+    display:inline-block;
+}
+
+
+ul.footer-cont li{
+    margin-right: 20px;
+    display:inline-block;
+    font-size: 14px;
+    line-height:20px;
+    color: #4f4f4f;
     
+}
+
+.footer-cont:first-child{
+    color:black;
+}
+
+ul.footer-cont span{
+    font-weight: 700px;
+    color:black;
+}
+
+div.copyright{
+    font-weight: 700;
+    line-height: 20px;
+    margin-left: 335px;
+    color: black;
+    display:inline-block;
+    /* border:1px solid violet; */
+   
 }
