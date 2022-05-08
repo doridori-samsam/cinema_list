@@ -216,7 +216,7 @@ input[type="radio"]:checked+label{
 /*footer*/
 footer{
     height: 213px;
-    width: 100vw;
+    width: 100%;
     margin-top: 135px;
     padding-top: 54px;
     background-color: #f2f2f2;
